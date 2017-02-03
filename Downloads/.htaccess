@@ -1,0 +1,4 @@
+AuthUserFile /home/doesnotexist/.htpasswd
+AuthName "Enter password"
+AuthType Basic
+Require valid-user

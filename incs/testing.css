@@ -1,0 +1,17 @@
+/* 
+    Document   : testing
+    Created on : 30.04.2015, 21:52:34
+    Author     : markus
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#bg {
+    position: fixed;
+
+    background-image: url(../images/background/blue-background.jpg);
+
+    /* schloss_11.jpg*/
+    /*  */
+    background-size: 100%;        
+}

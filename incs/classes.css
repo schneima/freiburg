@@ -1,0 +1,236 @@
+.shaddow
+{
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.collapsed
+{
+    visibility: collapse;
+}
+
+.Important
+{
+	border: 5px solid #FF0000;
+	margin: 10px;
+	padding: 10px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.Underline
+{
+    text-decoration: underline;
+}
+
+tr .gebNames 
+{
+	color: #030303;
+	font-size: 0.1em;
+}
+
+tr.tableHeader td
+{
+	font-weight: bold;
+	border-bottom: solid 1px #000;
+}
+
+tr.tableRow  td
+{
+	border-bottom: solid 1px #000;
+}
+
+.linkSmall{
+    font-size: small;
+}
+
+.totoplink
+{
+    float: right;
+    font-size: small;
+}
+
+.strong
+{
+    font-weight: bold;
+}
+
+.small
+{
+    font-size: .8em
+}
+	
+.linksFooter
+{
+    margin-left: 10px;
+}
+
+.links
+{
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.center
+{
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+.left{
+    margin: 5px;
+    display: block;
+    float: left;
+}
+
+.thumb{
+	max-height: 300px;
+        max-width: 300px;
+	margin: 5px;
+	border: #000 solid 2px;
+}
+
+.thumbs
+{
+	border: #001680 3px;
+	border-style: groove;
+	margin: 10px;
+}
+
+.tableBigImg
+{
+	border-collapse: collapse;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 99;
+	background-color: #000000;
+	border: solid black 1px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.linkImg{
+	cursor: pointer;
+	vertical-align: middle;
+}
+
+.inputText
+{
+    border: solid black 1px;
+}
+
+input.daten{
+	color: white;
+	background-color: #960000;}
+
+/*Abrundung!!!
+#round{
+	margin: 0 10%;
+	background: #9BD1FA;}*/
+b.rtop, b.rbottom{display:block;background: #FFF}
+b.rtop b, b.rbottom b{display:block;height: 1px;
+    overflow: hidden; background: #AAAAAA}
+b.r1{margin: 0 5px}
+b.r2{margin: 0 3px}
+b.r3{margin: 0 2px}
+b.rtop b.r4, b.rbottom b.r4{margin: 0 1px;height: 2px}
+
+.bilder{
+	width: 200px;
+	display: block;}
+	
+.vorstand td{
+	padding: 10px;
+	vertical-align: top;}
+
+.imagesTdLeft
+{
+	vertical-align: middle;
+	text-align: left;
+}
+.imagesTdMiddle
+{
+	vertical-align: middle;
+	text-align: center;
+}
+.imagesTdRight
+{
+	vertical-align: middle;
+	text-align: right;
+}
+	
+.termine_tb
+{
+	margin-left: 10px;
+	width: 100%;
+}
+.termine_tb th 
+{
+	font-weight: bold;
+	border-bottom: solid black 1px;
+	border-top: solid black 1px;
+	background-color: #808080;
+}
+
+.termine_tb tr
+{
+
+}
+
+.termine_tb td
+{
+	color: #000000;
+	border-bottom: solid #808080 1px;
+}
+
+.fontAnton
+{
+    font-family: 'Anton', sans-serif;
+}
+
+.colorMvRed
+{
+    color: #BE0227;
+}
+
+.fontBorder{
+     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fontSize3em
+{
+    font-size: 5em;
+}
+
+.bildbox {
+border:1px solid #000;
+background: #001680;/*#960000;*/
+width: auto;
+margin:10px;
+float: left;
+}
+.bildbox a img {
+height:114px;
+border:1px groove #000;
+margin:5px;
+}
+
+.bildbox a:hover img {
+width:auto;
+height:auto;
+}
+.bildbox img:hover {
+width:auto;
+height:auto;
+}
+.bildbox a:hover {
+padding:0; }
+	
+/* Grillfest*/
+.frame{
+	position:relative;
+	height: 200px;
+}
