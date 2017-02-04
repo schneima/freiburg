@@ -5,8 +5,15 @@ $bLoggedIn = false;
 $arPw[] = null;
 $statusVariableName='user_status';
 $userNameVarialbe='bn';
+$LoginIsAvailable=TRUE;
+$secFileToOpen="requirements/statlog.csv";
+if(!file_exists ($secFileToOpen))
+{
+    $LoginIsAvailable=FALSE;
+    return;
+}
 
-$handle = fopen("requirements/statlog.csv", "r");
+$handle = fopen($secFileToOpen, "r");
 while (($data = fgetcsv($handle, 1000, ";")) !== FALSE) 
 {
     $arPw[$data[0]] = $data[1];

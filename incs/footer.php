@@ -3,7 +3,13 @@
     <a class="linksFooter" href="?content=impressum">Impressum</a>
     <a class="linksFooter" href="?content=links"> Links </a>
     <a class="linksFooter" href="?content=aktuell&amp;f=archiv"> Archiv </a>
-    <a class="linksFooter" href="?content=login"> Intern </a>
+<?php
+
+if ($LoginIsAvailable) 
+{
+    echo "<a class=\"linksFooter\" href=\"?content=login\"> Intern </a>";
+}
+?>
 
 <?php 
 if($isLocal)

@@ -1,8 +1,7 @@
 <?php
 $isLocal = false;
-
-$ip = $_SERVER['REMOTE_ADDR'];
-if($ip === "127.0.0.1")
+$serverName = $_SERVER['SERVER_NAME'];
+if($serverName === "localhost")
 {
     $isLocal = true;
 }
