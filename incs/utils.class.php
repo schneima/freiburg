@@ -45,18 +45,31 @@ class Utils
         return number_format($size_in_mb,2)." MB";
     }    
     
+    static function PrintFiles($files, $folder)
+    {
+        PrintFilesTargetSet($files, $folder, false);
+    }
+    
     /*
      * Prints $files in given $folder as unsorted list as link including file size information.
      */
-    static function PrintFiles($files, $folder)
+    static function PrintFilesTargetSet($files, $folder, $newWindowLink)
     {
+        $linkTarget= "_self";
+        if ($newWindowLink)
+        {
+            $linkTarget="_blank";
+        }
+        
         echo"<ul>";
-        foreach ($files as $key => $name) {
+        foreach ($files as $name) {
             $fullPath = join(DIRECTORY_SEPARATOR, array($folder, $name));
             $size = Utils::GetFileSizeMB($fullPath);
             echo" <li>";
             echo"<a "
-            . "href=\"".$fullPath."\">$name ($size)</a>";
+            . "href=\"".$fullPath."\""
+                    ."target=\"".$linkTarget."\""
+                    ." >$name ($size)</a>";
             echo"</li>";    
         }
         echo"</ul>";
@@ -140,6 +153,19 @@ class Utils
         
         return $startendts;
     }
-}
+
+    
+    static function GetPdfPreview($fileName)
+    {
+        $fileName = realpath($fileName);
+        echo "filename: $fileName";
+        $im = new imagick( $fileName);
+        $im->setImageFormat('jpg');
+        header('Content-Type: image/jpeg');
+        echo $im;        
+    }
+    
+    }
+
 
 ?>

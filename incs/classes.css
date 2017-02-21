@@ -112,6 +112,10 @@ tr.tableRow  td
 	vertical-align: middle;
 }
 
+.verticalcentered {
+    vertical-align: middle;
+}
+
 .linkImg{
 	cursor: pointer;
 	vertical-align: middle;
