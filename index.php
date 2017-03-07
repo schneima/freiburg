@@ -1,7 +1,6 @@
 <?php
 require_once 'incs/siteConfiguraton.php';
 require_once 'incs/securityLib.php';
-//require_once 'incs/utils.class.php';
 
 ini_set('arg_separator.output', '&amp;');
         
@@ -25,13 +24,8 @@ function GetContent()
 // ADD JAVASCRIP for scrolling realtive to px
 ?>
 
-<!--  
- <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
- <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<!DOCTYPE html>
--->
 <!DOCTYPE html> 
-<html>
+<html lang="de">
 <head>
 <META HTTP-EQUIV="content-type" CONTENT="text/html; charset=utf-8"> 
 
@@ -44,7 +38,6 @@ function GetContent()
 <link rel="stylesheet" type="text/css" href="incs/layout.css">
 <link rel="stylesheet" type="text/css" href="incs/navi.css">
 <link rel="stylesheet" type="text/css" href="incs/classes.css">
-<link rel="stylesheet" type="text/css" href="incs/testing.css">
 
 <link rel="SHORTCUT ICON" href="images/favicon.ico" type="image/x-icon">
 <link rel="stylesheet" type="text/css" href="shadowbox-3.0.3/shadowbox.css">

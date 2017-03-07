@@ -31,7 +31,7 @@ if($nowDate < $refDate)
     <a href="?content=aktuell">
        <p>
            <img
-               width="500px"
+               width="500"
                class="shaddow"
                alt="Plakat Konzert 2016"
                src="./images/konzerte/2016_11.jpg" />

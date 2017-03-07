@@ -1,5 +1,7 @@
 commusic.php
 test.php
 TODO
+*.properties
+nbproject/*
 /requirements/statlog.csv
 /requirements/
