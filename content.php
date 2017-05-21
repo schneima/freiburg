@@ -81,6 +81,9 @@ switch ($content){
             echo $intBack;
             include('content/intfon.php');
             break;
+    case "facebook":
+            include('content/facebook.php');
+            break;
     case "intmembers":
             echo $intBack;
             include('content/intmembers.php');

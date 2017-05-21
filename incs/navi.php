@@ -9,7 +9,7 @@
             <ul>
                 <li><a href="?content=about"> Kapelle </a></li>
                 <li><a href="?content=dirigent"> Dirigent </a></li>
-                <li><a href="?content=mitteilungen"> Vereinsmittleiungen </a></li>
+                <li><a href="?content=mitteilungen"> Vereinsmitteilungen </a></li>
                 <li><a href="?content=chronik"> Chronik </a></li>
             
             </ul>
