@@ -5,7 +5,6 @@
  * and open the template in the editor.
  */
 ?>
-<p>
 <ul>
     <!-- <li><a href=\"?content=intdownloads\">Downloads</a></li
     <li><a href=\"?content=intproben\">Registerproben</a></li> 
@@ -19,5 +18,5 @@
     <li><a href="?content=intfon">Telefonliste</a></li>
     <li><a href="?content=intgeb">Geburtstage</a></li>
     <li><a href="?content=putzplan">Putzplan</a></li>
+    <li><a target="_blank" href="./media/Marschgrundlagen.pdf">Marschgrundlagen</a></li>
 </ul>
-</p>

@@ -46,7 +46,21 @@ function GetContent()
 Shadowbox.init();
 </script>
 <script src="incs/functions.js" type="text/javascript"></script>
+<script>
+window.onload = function() {
+    FB.Event.subscribe('xfbml.render', function(response) {
+        //console.log('rendered.... finally!');
+       
+        var loaderElement = document.getElementById("loader");
+        if(loaderElement !== null)
+        {
+            console.log("found loader element");
+            loaderElement.parentNode.removeChild(loaderElement);
+        };
 
+    });
+};
+</script>
 </head>
 <body >
 <?php

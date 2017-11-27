@@ -15,13 +15,16 @@
     position: fixed;
     top: 0;
     width: 100%;    
+    z-index: 99;
     /*
     background-image: url("../images/layout/schild_bollschweil.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     */
 }
-
+#events_box{
+    float: right;
+}
 #header_logo {
     margin-left: 40px;
     height: 100px;

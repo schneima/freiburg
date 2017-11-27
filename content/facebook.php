@@ -2,10 +2,9 @@
      data-href="https://www.facebook.com/musikbollschweil/" 
      data-tabs="timeline" 
      data-width="500" 
-     data-height="800" 
-     data-hide-cta="true"
-     data-small-header="false" 
-     data-adapt-container-width="true" 
+     data-height="600" 
+     data-small-header="false"
+     data-hide-cover="false"
      data-adapt-container-width="true" 
      data-show-facepile="false">
     <blockquote cite="https://www.facebook.com/musikbollschweil/" 

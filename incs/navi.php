@@ -20,9 +20,6 @@
 
         </li>
         <li><a href="?content=presse"> Presseberichte </a></li>
-        <li>
-            <a onClick="window.open('guestbook/index.php', 'G&auml;stebuch','toolbar=no,status=no,menubar=no,scrollbars=1,width=550,height=600,left=200,top=50');"> G&auml;stebuch </a>
-        </li>
         <li>    <a  href="?content=vorstand">Kontakt</a>
 </li>
         <?php

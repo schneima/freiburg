@@ -2,53 +2,50 @@
 
 <?php
 
-$refDate=new DateTime("2016-11-19 23:30:00");
+$refDate=new DateTime("2017-11-26 16:00:00");
 $nowDate=new DateTime('NOW');
 
 if($nowDate < $refDate)
     {
-        $afterStyle="visibility: collapse; height: 0px;";
-        $beforeStyle="visibility: visible;";
+    echo '';
+        $staticMessageStyle="display: none; visibility: hidden; height: 0px;";
+        $tempNewsStyle="visibility: visible;";
     }else{
-        $afterStyle="visibility: visible;";
-        $beforeStyle="visibility: collapse; height: 0px;";
+        $staticMessageStyle="visibility: visible;";
+        $tempNewsStyle="display: none; visibility: hidden; height: 0px;";
     }
 ?>
 
-<div style="<?php echo $afterStyle;  ?>" >
-    <div>
-       <p>
-           <img
-               class="shaddow"
-               alt="Bild Kapelle"
-               src="./images/schloss_snippet.jpg" />
-        </p>    
+<div style="<?php echo $staticMessageStyle;  ?>">
+    <div id="loader" >
+        <h1>Herzlich Willkommen</h1>
+        <p class="center">der Inhalt wird geladen...</p>
+        <img class="center" src="./images/layout/laden.gif">
+    </div>
+    <div id="facebookContainer">
+        <?php
+        include './content/facebook.php';
+        ?>
     </div>
 </div>
 
-<div style="<?php echo $beforeStyle;  ?>">
+<div style="<?php echo $tempNewsStyle;  ?>">
 
     <a href="?content=aktuell">
        <p>
            <img
-               width="500"
-               class="shaddow"
-               alt="Plakat Konzert 2016"
-               src="./images/konzerte/2016_11.jpg" />
+               width="40%"
+               class="shaddow center"
+               alt="Plakat Konzert 2017"
+               src="./images/konzerte/2017_11.gif" />
         </p> 
     </a>
-</div>
-
-<p>
-    Der Bericht vom Jahreskonzert ist ab sofort verfügbar unter <a href="?content=aktuell">Aktuelles...</a>
-</p>
-
-<!-- style="<?php echo $afterStyle;  ?>" -->
-<div style="<?php echo $afterStyle;  ?>"  >
-<p class="strong">Termine Vorschau:</p>
+    <h2>Vorverkaufsstellen
+    </h2>
     <ul>
-        <li>Samstag, 25.03.2017, Ensemble-Konzert, Möhlinhalle</li>
-        <li>Donnerstag, 15.06.2017, Fronleichnamshock, Weingut Mangold</li>
-        <li>Samstag, 25.11.2017, Jahreskonzert, Möhlinhalle</li>
+        <li><span class="bold">Versicherungsbüro Markus Zahn</span>, Hexentalstraße 48, 79283 Bollschweil</li>
+        <li><span class="bold">s`Brotkörble</span>, Leimbachweg 3, 79283 Bollschweil </li>
+        <li><span class="bold">Stuben-Strauße</span>, Hexentalstr. 46, 79283 Bollschweil</li>
+        
     </ul>
 </div>

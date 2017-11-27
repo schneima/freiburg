@@ -1,5 +1,5 @@
 <h1>Jugendausbildung</h1>
-<p>Wir legen größtmöglichen Wert auf die Förderunng und Ausbildung unseres Nachwuchses, der nicht nur musikalisch sondern auch für unseren Verein und die Gemeinschaft als solches die Zukunft bedeutet.
+<p>Wir legen größtmöglichen Wert auf die Förderung und Ausbildung unseres Nachwuchses, der nicht nur musikalisch sondern auch für unseren Verein und die Gemeinschaft als solches die Zukunft bedeutet.
     <bR>In Zusammenarbeit mit der Jugendmusikschule und der Grundschule Bollschweil bieten wir ab der 1. Klasse eine attraktive Freizeitbeschäftigung, die sich immer größerer Beliebtheit erfreut.
 Federführend für alles Organisatorische ist hierbei der Musikverein. Qualifizierte Ausbilder werden von uns und über die Jugendmusikschule vermittelt.</p>
 <p><span class="strong">Ansprechpartner</span> sind unser <span class="strong">Jugendvorstand Lucas Grammelpacher</span> und <span class="strong">Elternvertreterin Eva Maas</span>.</p>

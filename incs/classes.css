@@ -8,6 +8,10 @@
     visibility: collapse;
 }
 
+.hidden {
+    visibility: hidden;
+}
+
 .Important
 {
 	border: 5px solid #FF0000;
@@ -20,6 +24,11 @@
 .Underline
 {
     text-decoration: underline;
+}
+
+.bold
+{
+    font-weight: bold;
 }
 
 tr .gebNames 
@@ -237,4 +246,15 @@ padding:0; }
 .frame{
 	position:relative;
 	height: 200px;
+}
+
+.fb-page
+{
+    z-index: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fullwidth {
+    width: 100%;
 }

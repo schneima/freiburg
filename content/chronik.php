@@ -554,7 +554,7 @@ Abschlie&szlig;end ein Zusammenstellung aller Vorsitzenden und Dirigenten des Mu
   </tr>
   <tr> 
     <td>2005-2006</td>
-    <td>Berhard Maier</td>
+    <td>Bernhard Maier</td>
   </tr>
   <tr>
     <td>2006-2008</td>
