@@ -91,24 +91,27 @@ switch ($content){
     case "putzplan":
         include 'content/intern/putzplan.php';
         break;
-	case "presse":
-		include('content/presse.php');
-		break;
-	case "witz":
-		include('content/witz.php');
-		break;
-        case "impressum":
-		include('content/impressum.php');
-		break;
-        case "test":
-		include('content/test.php');
-		break;
-        case "wewantyou":
-		include('content/wewantyou_2016.php');
-		break;
-        case "mitteilungen":
-		include('content/mitteilungen.php');
-		break;
+    case "presse":
+            include('content/presse.php');
+            break;
+    case "witz":
+            include('content/witz.php');
+            break;
+    case "datenschutz":
+        include 'content/datenschutz.php';
+        break;
+    case "impressum":
+            include('content/impressum.php');
+            break;
+    case "test":
+            include('content/test.php');
+            break;
+    case "wewantyou":
+            include('content/wewantyou_2016.php');
+            break;
+    case "mitteilungen":
+            include('content/mitteilungen.php');
+            break;
 	default:
 		include("content/home.php");
 		}

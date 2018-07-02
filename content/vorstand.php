@@ -44,10 +44,8 @@ Tel. 0761-4011830<br></td>
 </td>
 <td>
     <b>Jugendrechner</b><br>
-    Philipp	Büche<br>
-    Prof.-Waldvogel-Straße 7<br>
-    79238 Ehrenkirchen<br>
-    E-Mail:  <a href="mailto:Jugendrechner@musikverein-bollschweil.de">Jugendrechner@musikverein-bollschweil.de</a>
+    Carina Dischinger<br>
+    E-Mail:  <a href="mailto:jugendrechner@musikverein-bollschweil.de">jugendrechner@musikverein-bollschweil.de</a>
 </td>
 </tr>
 <tr>

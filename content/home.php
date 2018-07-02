@@ -2,7 +2,7 @@
 
 <?php
 
-$refDate=new DateTime("2017-11-26 16:00:00");
+$refDate=new DateTime("2018-07-07 23:00:00");
 $nowDate=new DateTime('NOW');
 
 if($nowDate < $refDate)
@@ -34,18 +34,15 @@ if($nowDate < $refDate)
     <a href="?content=aktuell">
        <p>
            <img
-               width="40%"
+               width="30%"
                class="shaddow center"
-               alt="Plakat Konzert 2017"
-               src="./images/konzerte/2017_11.gif" />
+               alt="Plakat Schlosskonzert 2018"
+               src="./images/konzerte/2018_07_big.jpg" />
         </p> 
     </a>
-    <h2>Vorverkaufsstellen
-    </h2>
-    <ul>
-        <li><span class="bold">Versicherungsbüro Markus Zahn</span>, Hexentalstraße 48, 79283 Bollschweil</li>
-        <li><span class="bold">s`Brotkörble</span>, Leimbachweg 3, 79283 Bollschweil </li>
-        <li><span class="bold">Stuben-Strauße</span>, Hexentalstr. 46, 79283 Bollschweil</li>
-        
-    </ul>
+    <p>
+Die Trachtenkapelle Bollschweil lädt zu einem besonderen Konzert,
+unter dem Motto <a href="?content=aktuell">„Jazz trift Blasmusik“</a> in den historischen
+Schlosshof von Schloss Bollschweil ein.</p>
+    <p><a href="?content=aktuell">Weitere Informationen</a></p>
 </div>
