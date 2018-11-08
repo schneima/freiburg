@@ -2,7 +2,7 @@
 
 <?php
 
-$refDate=new DateTime("2018-07-07 23:00:00");
+$refDate=new DateTime("2018-11-24 23:00:00");
 $nowDate=new DateTime('NOW');
 
 if($nowDate < $refDate)
@@ -36,13 +36,14 @@ if($nowDate < $refDate)
            <img
                width="30%"
                class="shaddow center"
-               alt="Plakat Schlosskonzert 2018"
-               src="./images/konzerte/2018_07_big.jpg" />
+               alt="Plakat Jahreskonzert 2018"
+               src="./images/konzerte/2018_11_Jahreskonzert_500px.png" />
         </p> 
     </a>
-    <p>
-Die Trachtenkapelle Bollschweil lädt zu einem besonderen Konzert,
-unter dem Motto <a href="?content=aktuell">„Jazz trift Blasmusik“</a> in den historischen
-Schlosshof von Schloss Bollschweil ein.</p>
-    <p><a href="?content=aktuell">Weitere Informationen</a></p>
+    <p class="center">
+        <br>
+        Zu unserem diesjährigen Jahreskonzert am<br>
+    <span class="bold">Samstag den 24. November 2018 um 20.00 Uhr</span>
+        <br>laden wir Sie recht herzlich ein. 
+        <br><a href="?content=aktuell">Weitere Informationen</a></p>
 </div>
