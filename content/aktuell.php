@@ -80,8 +80,6 @@ readFolder($folder, $news);
         }
         
         usort($files, 'cmp_by_optionNumber');
-
-
         
         //echo "$i anz: ".count($files)."<br>";
 
