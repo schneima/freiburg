@@ -17,7 +17,7 @@
      lowsrc="kapelle_schloss_small.jpg">
 <h2>Unsere Besetzung</h2>
 <p>
-    <b><a href="?content=dirigent"> Dirigent: Carl Philipp Rombach</a></b>
+    <b><a href="?content=dirigent"> Dirigent: Pascal Arets</a></b>
 </p>
 <table id="besetzung">
   <tr> 
@@ -27,32 +27,32 @@
     <td> <b>Schlagzeug</b></td>
   </tr>
   <tr> 
-    <td >Carina Dischinger<br>
+    <td>Carina Dischinger<br>
         Daniela Müller<br>
         Judith Hermann<br>
-        Julia Hermann<br>
-        Luca-Teresa Widmer<br>
+        Julia Steiert<br>
+        Julia Weber<br>
         Stella Schneider<br>
         Sabrina Schmutz
     </td>
     <td >        
         Dagmar Riesterer<br>
-        Axel Goltz<br>    
+        Axel Goltz-Allgaier<br>    
         Thomas Imgraben<br>
-        Manuel Schneider<br>
-        Simeon Maas
+        Simeon Maas<br>
+        Carlos-Maria Maas<br>
+        Leon Riesterer<br>
+        Anton Weller
     </td>
     <td > 
         Patricia Schneider<br>
         Lena Weber<br>
         Lisa Schweizer<br>
-        Eva-Maria Ruf<br>
         Teresa Meilinger                
     </td>
     <td >
         Markus Schneider<br>
         Lucas Grammelspacher<br>
-        Johannes Grammelspacher<br>
         Samuel Meilinger
     </td>
   </tr>
@@ -73,15 +73,15 @@
         Meinrad Grammelspacher<br>
         Eva-Maria Grammelspacher<br>
         Berthold Schweizer<br>
-        Noah-Leander Widmer<br>
-        Ursula Mangold<br>
         Brigitte Weber<br>
+        Anais Braun<br>
+        Anna Zähringer
     </td>
     <td >
-        Philipp	B&uuml;che<br>
         Florian	M&uuml;ller<br>
         Moritz Butsch<br>
-        Theresa Mangold		
+        Stefan Hauser<br>
+        Dominik Sumser
     </td>
     <td>
         Christine Schweizer<br>
@@ -100,7 +100,10 @@
       Johannes Albert<br>
       Jarek Weiser<br>
       Anne Weber<br>
-      Thomas Schneider
+      Thomas Schneider<br>
+      Tom Kenk<br>
+      Lenny-Emile Maas<br>
+      Felix Weiser
     </td>
     <td>
         Klaus Weber<br>
