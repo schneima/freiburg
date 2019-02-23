@@ -16,7 +16,7 @@ if($nowDate < $refDate)
     }
 ?>
 
-<div style="<?php echo $staticMessageStyle;  ?>">
+<div style="<?php echo $tempNewsStyle;  ?>">
     <div id="loader" >
         <h1>Herzlich Willkommen</h1>
         <p class="center">der Inhalt wird geladen...</p>
@@ -29,21 +29,13 @@ if($nowDate < $refDate)
     </div>
 </div>
 
-<div style="<?php echo $tempNewsStyle;  ?>">
+<div style="<?php echo $staticMessageStyle;  ?>">
+        <h1>Herzlich Willkommen</h1>
 
-    <a href="?content=aktuell">
-       <p>
-           <img
-               width="30%"
-               class="shaddow center"
-               alt="Plakat Jahreskonzert 2018"
-               src="./images/konzerte/2018_11_Jahreskonzert_500px.png" />
-        </p> 
-    </a>
-    <p class="center">
-        <br>
-        Zu unserem diesjährigen Jahreskonzert am<br>
-    <span class="bold">Samstag den 24. November 2018 um 20.00 Uhr</span>
-        <br>laden wir Sie recht herzlich ein. 
-        <br><a href="?content=aktuell">Weitere Informationen</a></p>
+    <img 
+     id="homeImage" 
+     width="800px"
+     height="534px"
+     src="images/schloss_2011.jpg" 
+     lowsrc="kapelle_schloss_small.jpg">
 </div>

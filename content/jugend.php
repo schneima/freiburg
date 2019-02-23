@@ -28,7 +28,7 @@ Dirigent der Bläserklasse ist <span class="strong">Eckhard Albert</span>.
     Nach Beendigung der Grundschule wechseln die Bläserklassenschüler nun 
     gemeinsam und nahtlos in die Jugendkapelle.<br>
     Die Jugendkapelle ist die Vorstufe zum Hauptorchester, der Trachtenkapelle. 
-    Beide Orchester werden vom Dirigenten <a href="?content=dirigent"><span class="strong">Carl-Philipp Rombach</span></a> geleitet. 
+    Das Orchester wird von Konstantin Rinderle geleitet. 
     Hiermit ergibt sich schon früh ein Bezug zur Trachtenkapelle.<br>
     
       Gemeinsam werden interessante Stücke gespielt 

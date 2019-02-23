@@ -17,7 +17,8 @@ if($fileCount > 0)
     foreach ($filesToPrint as $file) {
         $fullPath = join(DIRECTORY_SEPARATOR, array($folder, $file));        
         echo "<p class=\"center\">";
-        $fileNameNoExt = substr($file, 0, count($file)-5);
+        
+        $fileNameNoExt = substr($file, 0, strlen($file)-4);
         $imageFileName = $fileNameNoExt."_preview.jpg";
         $src="$folder/$imageFileName";
             

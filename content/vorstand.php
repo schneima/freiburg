@@ -59,13 +59,13 @@ Tel. 0761-4011830<br></td>
 <tr>
 <td>
     <b>Dirigent</b><br>
-    Carl-Philipp Rombach<br>
+    Pascal Arets<br>
     E-Mail: <a href="mailto:dirigent@musikverein-bollschweil.de">dirigent@musikverein-bollschweil.de</a><br>
 </td>
 <td>
     <b>Dirigent Jugendkapelle</b><br>
-    Carl-Philipp Rombach<br>
-    E-Mail: <a href="mailto:dirigent@musikverein-bollschweil.de">dirigent@musikverein-bollschweil.de</a><br>
+    Konstantin Rinderle<br>
+    E-Mail: <a href="mailto:dirigent@musikverein-bollschweil.de">jugenddirigent@musikverein-bollschweil.de</a><br>
 
 </td>
 </tr>
