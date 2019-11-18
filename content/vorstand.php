@@ -36,10 +36,10 @@ Tel. 0761-4011830<br></td>
 <tr>
 <td>
     <b>Rechner</b><br>
-    Stefan Wagner<br>
-    Kuckucksbadstr. 13<br>
+    Meinrad Grammelspacher<br>
+    Hexentalstraße 48<br>
     79283 Bollschweil<br>
-    Tel. 07633-9334417<br>
+    Tel. 07633-8940<br>
     E-Mail: <a href="mailto:rechner@musikverein-bollschweil.de">rechner@musikverein-bollschweil.de</a>
 </td>
 <td>
