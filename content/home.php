@@ -2,7 +2,7 @@
 
 <?php
 
-$refDate=new DateTime("2019-11-23 23:50:00");
+$refDate=new DateTime("2020-01-05 23:50:00");
 $nowDate=new DateTime('NOW');
 
 if($nowDate < $refDate)
@@ -23,17 +23,18 @@ if($nowDate < $refDate)
            <img
                width="500px"
                class="shaddow center"
-               alt="Plakat Jahreskonzert 2019"
-               src="./images/konzerte/2019_11_Jahreskonzert_500px.jpg" />
+               alt="Theater 2020"
+               src="./images/news/70.jpg" />
         </p> 
     </a>
     <p class="center">
         <br>
-        Zu unserem diesjährigen Jahreskonzert am<br>
-    <span class="bold">Samstag den 23. November 2019 um 20.00 Uhr</span>
+        Zur öffentlichen Weihnachtsfeier am<br>
+    <span class="bold">Sonntag, den 05. Januar 2020 um 20.00 Uhr</span>
         <br>laden wir Sie recht herzlich ein. 
         <br><a href="?content=aktuell">Weitere Informationen</a></p>
 </div>
+
 <div style="<?php echo $staticMessageStyle;  ?>">
         <h1>Herzlich Willkommen</h1>
 
