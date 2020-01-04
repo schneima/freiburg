@@ -30,7 +30,7 @@ if($nowDate < $refDate)
     <p class="center">
         <br>
         Zur öffentlichen Weihnachtsfeier am<br>
-    <span class="bold">Sonntag, den 05. Januar 2020 um 20.00 Uhr</span>
+    <span class="bold red">Sonntag, den 05. Januar 2020 um 19.30 Uhr</span>
         <br>laden wir Sie recht herzlich ein. 
         <br><a href="?content=aktuell">Weitere Informationen</a></p>
 </div>
