@@ -2,7 +2,7 @@
 
 <?php
 
-$refDate=new DateTime("2020-05-23 23:50:00");
+$refDate=new DateTime("2020-01-23 23:50:00");
 $nowDate=new DateTime('NOW');
 
 if($nowDate < $refDate)
@@ -24,10 +24,15 @@ if($nowDate < $refDate)
                width="500px"
                class="shaddow center"
                alt="WeinProbenKonzert 2020"
-               src="./images/konzerte/2020_05_Plakat.jpg" />
+               src="./images/konzerte/2020_05_Plakat_small.jpg" />
         </p> 
     </a>
 </div>
+
+<?php
+ include('content/corona.php');
+?>
+<!--
 
 <div style="<?php echo $staticMessageStyle;  ?>">
         <h1>Herzlich Willkommen</h1>
@@ -39,3 +44,5 @@ if($nowDate < $refDate)
      src="images/zermatt_2019_title.jpg" 
      lowsrc="images/zermatt_2019_title_small.jpg">
 </div>
+
+-->

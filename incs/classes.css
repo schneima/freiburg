@@ -4,8 +4,19 @@
 
 .shaddow
 {
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 2px rgba(0,0,0,0.75);
+    border: black solid;
+    padding: 3px;
 }
+
+.hintbox {
+     
+    /* background-color: rgba(00, 16, 80, 0.4); */
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 1px solid #EBE9C5;
+    border-radius: 4px ; 
+    padding: 10px;
+ }
 
 .collapsed
 {
