@@ -273,3 +273,7 @@ padding:0; }
 .fullwidth {
     width: 100%;
 }
+
+table.vorstand {
+	width: 100%;
+}

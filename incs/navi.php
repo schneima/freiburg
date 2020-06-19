@@ -1,33 +1,33 @@
-<nav id="navi">
+<nav id="nav" role="navigation">
+    <a href="#nav" title="Show navigation">Menü</a>
+    <a href="#" title="Hide navigation">X</a>
     <ul>
-        <li><a href="?content=home"> Startseite </a></li>
-        <li><a href="?content=beitritt"> Mitglied werden</a></li>
-        
-        <li><a href="?content=aktuell"> Aktuelles </a></li>
-        <li><a href="?content=termine"> Termine </a></li>
-        <li><a href="?content=about"> Über uns </a>
+      <li><a href="?content=home"> Startseite </a>
+          <span class="menu-separator-block"></span>
+      </li>
+      <li><a href="?content=beitritt"> Mitglied werden</a></li>
+      <li><a href="?content=aktuell"> Aktuelles </a></li>
+      <li><a href="?content=termine"> Termine </a></li>
+        <li>
+            <span> Über uns </span>
             <ul>
-                <li><a href="?content=about"> Kapelle </a></li>
-                <li><a href="?content=dirigent"> Dirigent </a></li>
-                <li><a href="?content=mitteilungen"> Vereinsmitteilungen </a></li>
-                <li><a href="?content=chronik"> Chronik </a></li>
-            
+              <li><a href="?content=about"> Kapelle </a></li>
+              <li><a href="?content=dirigent"> Dirigent </a></li>
+              <li><a href="?content=mitteilungen"> Vereinsmitteilungen </a></li>
+              <li><a href="?content=chronik"> Chronik </a></li>
             </ul>
-        
         </li>
-        
         <li><a href="?content=jugend"> Jugendausbildung </a>
-
-        </li>
         <li><a href="?content=presse"> Presseberichte </a></li>
-        <li>    <a  href="?content=vorstand">Kontakt</a>
-</li>
+        <li><a href="?content=kontakt">Kontakt</a></li>
+      
         <?php
         if(isset($logoutBtn))
         {
+          echo "<a>";
             echo $logoutBtn;
+            echo "</a>";
         }
-        // echo "<br ><img src=\"images/$imgOnline\" width=\"15px\" alt=\"\" > $lbOnline";
-    ?>
-</ul>
+    ?>      
+      </ul>
 </nav>

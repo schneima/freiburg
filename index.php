@@ -38,7 +38,7 @@ function GetContent()
 <link rel="stylesheet" type="text/css" href="incs/layout.css">
 <link rel="stylesheet" type="text/css" href="incs/navi.css">
 <link rel="stylesheet" type="text/css" href="incs/classes.css">
-
+<meta name="viewport" content="width=device-width,initial-scale=1" />
 <link rel="SHORTCUT ICON" href="images/favicon.ico" type="image/x-icon">
 <link rel="stylesheet" type="text/css" href="shadowbox-3.0.3/shadowbox.css">
 <script type="text/javascript" src="./shadowbox-3.0.3/shadowbox.js"></script>

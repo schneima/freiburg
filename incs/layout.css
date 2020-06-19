@@ -12,9 +12,10 @@
     /* #001680; blau */
         /* #960000; rot */
     background-color: #fff;
-    position: fixed;
-    top: 0;
-    width: 100%;    
+     /*position: fixed;
+    top: 0; */
+    
+    width: 100%;
     z-index: 99;
     /*
     background-image: url("../images/layout/schild_bollschweil.jpeg");
@@ -22,6 +23,7 @@
     background-size: cover;
     */
 }
+
 #events_box{
     float: right;
 }
@@ -58,7 +60,7 @@
 #cont_container
 {
     min-height: 500px;
-    margin-top: 150px;
+    margin-top: 50px;
     margin-bottom: 70px;
     margin-left: 255px;
 /*
@@ -127,23 +129,6 @@ table#besetzung td
 
 }
 
-
-#menu1 {
-    margin-left: 30px;
-
-    border: #000 solid 2px;
-    width: 200px;
-    background: #FFF;
-    margin-top: 30px;
-    padding: 5px;    
-    position:absolute; 
-    top:150px; 
-    left:30px; 
-    font-weight:bold;
-    font-size: 16px;
-    text-align:left;
-}
-
 #showImg
 {
 	border: solid 1px black;
@@ -157,34 +142,10 @@ table#besetzung td
 	border: groove 3px #001680;
 }
 
-
-
-
 #dirigent{
 	margin-left: 10px;
 	margin-top: 10px;
 	margin-right: 10px;
 	margin-bottom: 10px;
 	float: left;
-}
-
-#d1{
-	position: absolute;
-	left: 10px;
-	top: 10px;
-}
-#d2{
-	position: absolute;
-	left: 100px;
-	top: 10px;
-}
-#d3{
-	position: absolute;
-	left: 200px;
-	top: 10px;
-}
-#d4{
-	position: absolute;
-	left: 300px;
-	top: 10px;
 }
