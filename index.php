@@ -27,8 +27,7 @@ function GetContent()
 <!DOCTYPE html> 
 <html lang="de">
 <head>
-<META HTTP-EQUIV="content-type" CONTENT="text/html; charset=utf-8"> 
-
+<meta charset="UTF-8" />
 <title>Musikverein Bollschweil</title>
 <link href='http://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>

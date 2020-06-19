@@ -1,6 +1,7 @@
 <nav id="nav" role="navigation">
-    <a href="#nav" title="Show navigation">Menü</a>
-    <a href="#" title="Hide navigation">X</a>
+    <a href="#nav" title="Show navigation"></a>
+    <a href="#" title="Hide navigation"></a>
+
     <ul>
       <li><a href="?content=home"> Startseite </a>
           <span class="menu-separator-block"></span>

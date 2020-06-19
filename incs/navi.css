@@ -1,7 +1,8 @@
+@charset "UTF-8";
+
 #nav
 {
     width: 100%;
-
     position: absolute;
     z-index: 2;
     height: 50px;
@@ -71,9 +72,15 @@
     {
         position: relative;
     }
+    
+    #nav > a::before {
+        content: "\2630";
+    }
+
     #nav > a
     {
     }
+
     #nav:not( :target ) > a:first-of-type,
     #nav:target > a:last-of-type
     {
