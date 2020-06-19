@@ -9,12 +9,6 @@
 
 ?>
 
-<img 
-     id="homeImage" 
-     width="800px"
-     height="534px"
-     src="images/schloss_2011.jpg" 
-     lowsrc="kapelle_schloss_small.jpg">
 <h2>Unsere Besetzung</h2>
 <p>
     <b><a href="?content=dirigent"> Dirigent: Pascal Arets</a></b>

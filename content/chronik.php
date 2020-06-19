@@ -561,15 +561,15 @@ Abschlie&szlig;end ein Zusammenstellung aller Vorsitzenden und Dirigenten des Mu
     <td>J&uuml;rgen Gutgsell</td>
   </tr>
   <tr>
-    <td>M&auml;rz 2008 - Oktober 2010</td>
+    <td>2008-2010</td>
     <td>Andreas Daiger</td>
   </tr>
   <tr>
-    <td>Oktober 2010 - 2018</td>
+    <td>2010-2018</td>
     <td>Carl Phillip Rombach</td>
   </tr>
   <tr>
-    <td>ab Januar 2019</td>
+    <td>seit Januar 2019</td>
     <td>Pascal Arets</td>
   </tr>
 
