@@ -2,12 +2,15 @@
 
 #nav
 {
+    /* container */
     width: 100%;
-    position: absolute;
+    position: relative;
     z-index: 2;
     height: 50px;
-    /* container */
+    font-weight: bolder;
+    font-size: 1.25em;
 }
+
 
 #nav a {
     text-decoration: none;
@@ -34,9 +37,7 @@
     display: none;
 }
 
-
 /* first level */
-
 #nav > ul
 {
     height: 2em;
@@ -44,19 +45,22 @@
 
 #nav > ul > li
 {
-    width: 12.5%;
+    width: 20%;
     height: 100%;
     float: left;
 }
  
 /* second level */
-
 #nav li ul
 {
     display: none;
     position: absolute;
     top: 100%;
     padding-right: 20px;
+}
+
+#nav li ul li {
+    padding: 10px;
 }
 
 #nav li:hover ul
@@ -70,15 +74,17 @@
 {
     #nav
     {
-        position: relative;
-    }
-    
-    #nav > a::before {
-        content: "\2630";
+        margin-right: 10px;
     }
 
-    #nav > a
-    {
+    #nav ul li {
+        padding: 10px;
+    }
+
+    #nav > a::before {
+        float: right;
+        font-size: 1.5em;
+        content: "\2630";
     }
 
     #nav:not( :target ) > a:first-of-type,
@@ -86,29 +92,28 @@
     {
         display: block;
     }
-    
+
     /* first level */
-    
     #nav > ul
     {
         height: auto;
         display: none;
-        position: absolute;
-        left: 0;
-        right: 0;
     }
+
     #nav:target > ul
     {
         display: block;
     }
+
     #nav > ul > li
     {
         width: 100%;
-        float: none;
+        float: right;
+        background-color: rgba(255,255,255,0.9);
+        box-shadow: 2px 2px 2px rgba(0,0,0,0.7);
     }
-    
+
     /* second level */
-    
     #nav li ul
     {
         position: static;

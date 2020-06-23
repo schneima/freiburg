@@ -1,5 +1,5 @@
 
-<div class="shaddow hintbox">
+<div>
     <h3>
     Liebe Mitglieder, liebe Freundinnen und Freunde des Musikvereins Trachtenkapelle Bollschweil,
     </h3>

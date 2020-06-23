@@ -20,8 +20,6 @@ function GetContent()
 
     return $content;
 }
-
-// ADD JAVASCRIP for scrolling realtive to px
 ?>
 
 <!DOCTYPE html> 
@@ -45,65 +43,25 @@ function GetContent()
 Shadowbox.init();
 </script>
 <script src="incs/functions.js" type="text/javascript"></script>
-<script>
-window.onload = function() {
-    FB.Event.subscribe('xfbml.render', function(response) {
-        //console.log('rendered.... finally!');
-       
-        var loaderElement = document.getElementById("loader");
-        if(loaderElement !== null)
-        {
-            console.log("found loader element");
-            loaderElement.parentNode.removeChild(loaderElement);
-        };
-
-    });
-};
-</script>
 </head>
 <body >
 <?php
 
-include('./incs/header.php');
-include('./incs/navi.php');
+include './incs/header.php';
 include './content.php';
-include('./incs/footer.php');
+include './incs/footer.php';
 
 ?>
-    
-    
-<!-- add facebook javascript sdk  -->
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/de_DE/sdk.js#xfbml=1&version=v2.9";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
-<!-- add tracker code -->
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-try {
-var pageTracker = _gat._getTracker("UA-9143172-2");
-pageTracker._trackPageview();
-} catch(err) {}</script>
-<!--
-<script type="text/javascript">
-    window.onscroll = function() 
-    {
-        document.getElementById('bg').style.top = (window.pageYOffset * -0.25) + 'px';
-    }
-</script>
-<div id="bg">
-    <img id="bg1" src="images/background/blue-background.jpg" alt="Logo"/>
-</div>
-    
- -->
-
-</body>
+        <!-- add tracker code -->
+        <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+        </script>
+        <script type="text/javascript">
+        try {
+            var pageTracker = _gat._getTracker("UA-9143172-2");
+            pageTracker._trackPageview();
+            } catch(err) {}
+        </script>
+    </body>
 </html>

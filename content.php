@@ -1,7 +1,7 @@
 <?php
 
 $folder="content/";
-echo"<div id=\"cont_container\"><div id=\"content\">";
+echo"<div id=\"cont_container\">";
 $intBack = "<p><a href=\"?content=login\">zur&uuml;ck</a></p>";
 $content = GetContent();
 switch ($content){
@@ -9,7 +9,7 @@ switch ($content){
         include($folder.'beitritt.php');
         break;
     case "test":
-        include("test.php");
+        // include 'content/test.php';
         break;
     case "geb":
         include("content/geburtstage.php");
@@ -22,7 +22,7 @@ switch ($content){
             break;
     case "archiv":
             include('content/aktuell.php');
-            break;         
+            break;
     case "about":
             include('content/ueber_uns.php');
             break;
@@ -112,12 +112,8 @@ switch ($content){
     case "mitteilungen":
             include('content/mitteilungen.php');
             break;
-	default:
-		include("content/home.php");
-		}
-echo"</div></div>";
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+    default:
+            include("content/home.php");
+        }
+echo"</div>";
 ?>

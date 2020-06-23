@@ -2,77 +2,54 @@
  * Contains all specifc container layout definitions 
  * all #elements
  */
-#header
+header
 {
-    opacity: .9;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 10px;
     border-bottom-width: 1px;
     border-bottom-color: #001680; 
     border-bottom-style: solid;
     /* #001680; blau */
-        /* #960000; rot */
-    background-color: #fff;
-     /*position: fixed;
-    top: 0; */
-    
+    /* #960000; rot */
+    background-color: rgba(255,255,255,0.9);
+    position: fixed;
+    top: 0;
     width: 100%;
     z-index: 99;
-    /*
-    background-image: url("../images/layout/schild_bollschweil.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    */
+    display: flex;
+    height: 90px;
+}
+
+header * {
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 #events_box{
     float: right;
 }
 #header_logo {
+    vertical-align: middle;
     margin-left: 40px;
-    height: 100px;
-} 
-
-#bollschweil_logo{
-    position: relative;
-    left: 450px;
-    top: -10px;
-    visibility: hidden;
-}
-#header_title_container
-{
-    white-space: nowrap;
-    position: relative;
-    top: -80px;
-    left: 250px;
-}
-
-#header_title
-{
-    text-shadow: 2px 2px 2px #666666;
-    position:absolute; 
-    left: 0px; 
-    top: 0px; 
-    color: #BE0227; 
-    font-size: 55px; 
-    font-family: 'Playball';
+    max-height: 90px;
+    float: none;
 }
 
 #cont_container
 {
+    padding: 5px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
     min-height: 500px;
-    margin-top: 50px;
     margin-bottom: 70px;
-    margin-left: 255px;
-/*
-    background-color: #FFF;
+    background-color: rgba(255,255,255,0.9);
     border-style: solid;
     border-width: 3px;
     border-color: #960000;
-    border-radius: 10px;    
-*/
-    width: 75%;
-    max-width: 1200px;
-    padding: 12px;
+    border-radius: 10px;
+    margin-top: 110px;
 }
 
 #newsImage
@@ -126,7 +103,6 @@ table#besetzung td
     position: fixed;
     bottom: 0;
     width: 100%;
-
 }
 
 #showImg
@@ -142,10 +118,7 @@ table#besetzung td
 	border: groove 3px #001680;
 }
 
-#dirigent{
-	margin-left: 10px;
-	margin-top: 10px;
-	margin-right: 10px;
-	margin-bottom: 10px;
-	float: left;
+#teamplanbuch_calendar {
+    width: 100%;
+    min-height: 500px;
 }

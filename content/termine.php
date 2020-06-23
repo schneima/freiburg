@@ -8,4 +8,8 @@
 -->
 
 
-<iframe src="https://www.teamplanbuch.ch/extern/kalender/kalender2.php?kid=7ad898c1679bd33fe793ebdf1ab91485" width="600" height="600" scrolling="auto" frameborder="0"></iframe>
+<iframe src="https://www.teamplanbuch.ch/extern/kalender/kalender2.php?kid=7ad898c1679bd33fe793ebdf1ab91485"
+    id="teamplanbuch_calendar"
+    scrolling="auto"
+    frameborder="0">
+</iframe>
