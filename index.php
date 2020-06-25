@@ -31,10 +31,10 @@ function GetContent()
 <link href='http://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 
-<link rel="stylesheet" type="text/css" href="incs/general.css">
-<link rel="stylesheet" type="text/css" href="incs/layout.css">
-<link rel="stylesheet" type="text/css" href="incs/navi.css">
-<link rel="stylesheet" type="text/css" href="incs/classes.css">
+<link rel="stylesheet" type="text/css" href="incs/general.css?v=2.0">
+<link rel="stylesheet" type="text/css" href="incs/layout.css?v=2.0">
+<link rel="stylesheet" type="text/css" href="incs/navi.css?v=2.0">
+<link rel="stylesheet" type="text/css" href="incs/classes.css?v=2.0">
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <link rel="SHORTCUT ICON" href="images/favicon.ico" type="image/x-icon">
 <link rel="stylesheet" type="text/css" href="shadowbox-3.0.3/shadowbox.css">

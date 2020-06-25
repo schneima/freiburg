@@ -12,6 +12,7 @@ header
     border-bottom-style: solid;
     /* #001680; blau */
     /* #960000; rot */
+    
     background-color: rgba(255,255,255,0.9);
     position: fixed;
     top: 0;
@@ -29,6 +30,7 @@ header * {
 #events_box{
     float: right;
 }
+
 #header_logo {
     vertical-align: middle;
     margin-left: 40px;
@@ -39,7 +41,7 @@ header * {
 #cont_container
 {
     padding: 5px;
-    width: 95%;
+    width: 85%;
     margin-left: auto;
     margin-right: auto;
     min-height: 500px;
