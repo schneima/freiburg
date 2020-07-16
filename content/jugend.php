@@ -3,6 +3,24 @@
     <bR>In Zusammenarbeit mit der Jugendmusikschule und der Grundschule Bollschweil bieten wir ab der 1. Klasse eine attraktive Freizeitbeschäftigung, die sich immer größerer Beliebtheit erfreut.
 Federführend für alles Organisatorische ist hierbei der Musikverein. Qualifizierte Ausbilder werden von uns und über die Jugendmusikschule vermittelt.</p>
 <p><span class="strong">Ansprechpartner</span> sind unser <span class="strong">Jugendvorstand Lucas Grammelpacher</span> und <span class="strong">Elternvertreterin Eva Maas</span>.</p>
+
+<p>
+    Um einen Eindruck von den einzelnen Instrumenten zu bekommen findet einmal im Jahr - meistens im Rahmen einer schulischen Veranstaltung (z.B. Sommerfest) - 
+    eine sogenannte Instrumentenvorstellung statt.<br>
+    Hier können die Kinder die Instrumente begutachten, Fragen über das Intrument stellen oder sogar versuchen selbst den ersten Rhythmus oder Ton aus dem Instrument zu bekommen.
+</p>
+<p>
+    Dieses Jahr kann eine Instrumentenvorstellung in diesem Modus aus bekannten Gründen leider nicht statt finden. Darum haben wir uns etwas einfallen lassen:<br>
+    <span class="strong"> eine virtuelle Instrumentenvorstellung</span>
+</p>
+
+<div class="video-container center">
+    <iframe src="https://www.youtube-nocookie.com/embed/flauMZdycgw?rel=0"
+        frameborder="0"
+        allowfullscreen="allowfullscreen"></iframe>
+</div>
+
+
 <p>Das Ausbildungssystem unterteilt sich auf drei aufeinanderfolgende Stufen:</p>
 <p>
 <ul>
