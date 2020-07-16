@@ -17,21 +17,24 @@ if($nowDate < $refDate)
 ?>
 
 <div style="<?php echo $tempNewsStyle;  ?>">
+    <?php
+    include('content/corona.php');
+    ?>
 
-   <a href="?content=aktuell">
-       <p>
-           <img
-               width="500px"
-               class="shaddow center"
-               alt="WeinProbenKonzert 2020"
-               src="./images/konzerte/2020_05_Plakat_small.jpg" />
-        </p> 
-    </a>
 </div>
 
-<?php
- include('content/corona.php');
-?>
+<a href="?content=aktuell">
+       <p>
+           <img
+               id="homeImage"
+               class="shaddow center"
+               alt="Popup Konzerte 2020"
+               src="./images/konzerte/2020_07_1.jpeg" />
+        </p> 
+    </a>
+
+<!-- TODO: https://www.youtube.com/watch?v=flauMZdycgw
+-->
 <!--
 
 <div style="<?php echo $staticMessageStyle;  ?>">

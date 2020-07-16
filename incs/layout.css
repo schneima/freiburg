@@ -61,6 +61,10 @@ header * {
     margin: 5px;
 }
 
+#homeImage {
+    max-width: 85%;
+}
+
 #KonzertPlakat
 {
     text-align: center;
@@ -68,7 +72,6 @@ header * {
 
 #fileNames{
     font-size: 0.8em;
-    
 }
 
 #geburstage
@@ -77,14 +80,6 @@ header * {
 	position: relative;
 	float: right;
 	padding: 10px;
-}
-
-#homeImage{
-    display: block;
-    border: solid 1px #001680;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 50px;
 }
 
 table#besetzung td
