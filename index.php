@@ -33,7 +33,7 @@ function GetContent()
 
 <link rel="stylesheet" type="text/css" href="incs/general.css?v=2.0">
 <link rel="stylesheet" type="text/css" href="incs/layout.css?v=2.1">
-<link rel="stylesheet" type="text/css" href="incs/navi.css?v=2.1">
+<link rel="stylesheet" type="text/css" href="incs/navi.css?v=2.2">
 <link rel="stylesheet" type="text/css" href="incs/classes.css?v=2.1">
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <link rel="SHORTCUT ICON" href="images/favicon.ico" type="image/x-icon">

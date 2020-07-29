@@ -23,6 +23,11 @@ if($nowDate < $refDate)
 
 </div>
 
+<h2>Bericht online</h2>
+    <p>
+        Lesen Sie jetzt den Bericht zum ersten Auftritt unter <a href="?content=aktuell">Aktuelles</a>
+</p>
+
 <a href="?content=aktuell">
        <p>
            <img
@@ -31,7 +36,7 @@ if($nowDate < $refDate)
                alt="Popup Konzerte 2020"
                src="./images/konzerte/2020_07_1.jpeg" />
         </p> 
-    </a>
+</a>
 
 <!-- TODO: https://www.youtube.com/watch?v=flauMZdycgw
 -->
