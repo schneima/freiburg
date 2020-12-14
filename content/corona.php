@@ -6,11 +6,6 @@
 
     <p>zunächst wünschen wir Ihnen und Euch, dass Sie und Ihr, sowie alle Familien und FreundInnen gesund sind und dies auch bleiben.</p>
 
-    <p>Um die Vorweihnachtszeit etwas musikalischer zu machen, gibt es eine kleine <a href="?content=aktuell">Überraschung...</a></p>
-
-
-
-
-
+    <p>Um die Vorweihnachtszeit etwas musikalischer zu machen, haben wir eine kleine <a href="?content=aktuell">Überraschung für euch...</a></p>
 
 </div>
