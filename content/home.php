@@ -2,7 +2,7 @@
 
 <?php
 
-$refDate=new DateTime("2020-01-23 23:50:00");
+$refDate=new DateTime("2020-12-23 23:50:00");
 $nowDate=new DateTime('NOW');
 
 if($nowDate < $refDate)
@@ -16,27 +16,14 @@ if($nowDate < $refDate)
     }
 ?>
 
-<div style="<?php echo $tempNewsStyle;  ?>">
+<div>
+    <img class="center adjustedFullWidth" src="images/xmas.jpg">
     <?php
     include('content/corona.php');
     ?>
 
 </div>
 
-<h2>Bericht online</h2>
-    <p>
-        Lesen Sie jetzt den Bericht zum ersten Auftritt unter <a href="?content=aktuell">Aktuelles</a>
-</p>
-
-<a href="?content=aktuell">
-       <p>
-           <img
-               id="homeImage"
-               class="shaddow center"
-               alt="Popup Konzerte 2020"
-               src="./images/konzerte/2020_07_1.jpeg" />
-        </p> 
-</a>
 
 <!-- TODO: https://www.youtube.com/watch?v=flauMZdycgw
 -->

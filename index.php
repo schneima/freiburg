@@ -34,7 +34,7 @@ function GetContent()
 <link rel="stylesheet" type="text/css" href="incs/general.css?v=2.0">
 <link rel="stylesheet" type="text/css" href="incs/layout.css?v=2.1">
 <link rel="stylesheet" type="text/css" href="incs/navi.css?v=2.2">
-<link rel="stylesheet" type="text/css" href="incs/classes.css?v=2.1">
+<link rel="stylesheet" type="text/css" href="incs/classes.css?v=2.2">
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <link rel="SHORTCUT ICON" href="images/favicon.ico" type="image/x-icon">
 <link rel="stylesheet" type="text/css" href="shadowbox-3.0.3/shadowbox.css">
@@ -63,5 +63,12 @@ include './incs/footer.php';
             pageTracker._trackPageview();
             } catch(err) {}
         </script>
+        <!-- 
+            doku: https://cookieinfoscript.com/
+        -->
+        <script type="text/javascript" id="cookieinfo"
+    src="//cookieinfoscript.com/js/cookieinfo.min.js">
+</script>
+
     </body>
 </html>
