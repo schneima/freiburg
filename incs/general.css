@@ -3,8 +3,18 @@
  */
 
 html {
-    background: url("../images/layout/schild_bollschweil.jpeg") no-repeat center center fixed; 
-    -webkit-background-size: cover;
+    background: url("../images/layout/schild_bollschweil.jpeg") no-repeat center center fixed;
+	
+	/* plaing around with corporate colors */ 
+	/* background-image: linear-gradient(to bottom, #960000, #001680); */
+    /* #001680; blau */
+	/* #960000; rot 
+	background-color: rgba(255,255,255,0.9);
+	
+	org:
+	background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+	*/
+	-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
@@ -37,27 +47,25 @@ h3 {
     text-align: center;
 }
 
-
 li {
 	margin-bottom: 2px;
 	list-style-type: square;
 }
 
 a {
-	cursor: pointer;
-	color: #001680;
-	text-decoration: none;}
+	cursor: pointer; 
+	color:#960000;
+	font-weight: bold;
+	}
 
 a:link {
-	color:#001680;
+	color:#960000;
 	background-color:transparent;
-	text-decoration: none;
 	border: 0px;}
 a:visited {
-	color:#001680;
 	background-color:transparent; }
 a:hover   {
-	color:#8b0000; 
+	color:#001680; 
     text-decoration: underline;
 }
 a:active  {
