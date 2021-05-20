@@ -16,12 +16,37 @@ if($nowDate < $refDate)
     }
 ?>
 
-<div>
-    <img class="center adjustedFullWidth" src="images/xmas.jpg">
-    <?php
-    include('content/corona.php');
-    ?>
+<h1> Fronleichnam 2021</h1>
 
+<h3>
+Besondere Situationen erfordern besondere Maßnahmen
+</h3>
+<h3>
+
+Aus diesem Grund haben wir uns dieses Jahr etwas einfallen lassen zu unserem traditionellen Fronleichnamshock-Termin:
+</h3>
+
+<div>
+
+    <a href="images/news/fronleichnam-2021/flyer-1.jpeg"
+       rel="shadowbox['news75']">
+        <img name="images/news/fronleichnam-2021/flyer-1.jpeg" 
+             class="thumb" 
+             src="images/news/fronleichnam-2021/flyer-1.jpeg"
+             alt="Fronleichnamshock To Go 2021">
+    </a>
+
+    <a href="images/news/fronleichnam-2021/flyer-1.jpeg"
+       rel="shadowbox['news75']">
+    </a>
+
+</a>
+<p>
+
+<a href="media/2021-Fronleichnam-to-go-flyer.pdf" >
+Flyer zum Download
+</a>
+</p>
 </div>
 
 
