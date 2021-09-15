@@ -1,5 +1,13 @@
 body {
     background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 3em;
+}
+
+.center {
+    text-align: center;
 }
 
 .stations-video {

@@ -27,7 +27,6 @@ Aus diesem Grund haben wir uns dieses Jahr etwas einfallen lassen zu unserem tra
 </h3>
 
 <div>
-
     <a href="images/news/fronleichnam-2021/flyer-1.jpeg"
        rel="shadowbox['news75']">
         <img name="images/news/fronleichnam-2021/flyer-1.jpeg" 
