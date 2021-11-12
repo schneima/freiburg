@@ -121,8 +121,3 @@ table#besetzung td
 {
 	border: groove 3px #001680;
 }
-
-#teamplanbuch_calendar {
-    width: 100%;
-    min-height: 500px;
-}
