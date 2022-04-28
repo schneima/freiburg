@@ -2,7 +2,7 @@
 
 <?php
 
-$refDate=new DateTime("2021-11-20 23:50:00");
+$refDate=new DateTime("2022-05-14 23:50:00");
 $nowDate=new DateTime('NOW');
 
 if($nowDate < $refDate)
@@ -19,9 +19,8 @@ if($nowDate < $refDate)
     <a href="?content=aktuell">
         <img
             id="homeImage"
-            src="images/news/76_Herbstfeuer_S1.jpg"
-            lowsrc="images/news/76_Herbstfeuer_S1-min.jpg"
-            alt="2021 Herbstfeuer" />
+            src="./images/konzerte/2022_05_Eintrittskarte.jpg"
+            alt="2022 Frühjahrskonzert" />
     </a>
 </div>
 
