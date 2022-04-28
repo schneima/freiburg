@@ -5,8 +5,8 @@
     $monthen = date("n");
     $monat = getGermanMonth($monthen);
     echo $monat." ".date("Y"); ?>
-    </font
-></p>
+    </font>
+</p>
 
 <table class="vorstand">
 <tr>
@@ -26,10 +26,10 @@ Tel. 07633-6761<br></td>
 </tr>
 <tr>
 <td><b>2. Vorsitzender</b><br>
-Stefan Schweizer<br>
-Klostergasse 2<br>
-79294 Sölden<br>
-Tel. 0761-4011830<br></td>
+
+Lucas Grammelspacher<br>
+E-Mail: <a href="mailto:jugend@musikverein-bollschweil.de">jugend@musikverein-bollschweil.de</a>
+</td>
 <td>
     <b>Vorstand Verwaltung</b><br>
     Markus Zahn<br>
@@ -48,9 +48,6 @@ Tel. 0761-4011830<br></td>
     E-Mail: <a href="mailto:rechner@musikverein-bollschweil.de">rechner@musikverein-bollschweil.de</a>
 </td>
 <td>
-    <b>Jugendrechner</b><br>
-    Carina Dischinger<br>
-    E-Mail:  <a href="mailto:jugendrechner@musikverein-bollschweil.de">jugendrechner@musikverein-bollschweil.de</a>
 </td>
 </tr>
 <tr>
