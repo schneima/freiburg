@@ -491,7 +491,19 @@ Abschlie&szlig;end ein Zusammenstellung aller Vorsitzenden und Dirigenten des Mu
 <a class="totoplink" href="#top">Zum Anfang</a>
 <h3 nane="dirigenten">Dirigenten</h3>
 <br>
-<table>
+<?php 
+    $mediaStyle="visibility: visible; width: 100%;";
+    $announcementStyle="display: none; visibility: hidden; height: 0px;";
+
+
+  ?>
+
+<div style="<?php echo $announcementStyle; ?>">
+<p>... dachten Sie wohl ;-) <br>
+nach dem Fronleichsnamhock To Go 2021 wird die Information hier wieder zur Verfügung sein. </p>
+</div>
+
+<table style="<?php echo $mediaStyle; ?>">
   <tr> 
     <td width="200">1889-1899</td>
     <td width="230">Josef Gutgsell, Bollschweil</td>

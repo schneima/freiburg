@@ -31,8 +31,8 @@ function GetContent()
 <link href='http://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 
-<link rel="stylesheet" type="text/css" href="incs/general.css?v=2.0">
-<link rel="stylesheet" type="text/css" href="incs/layout.css?v=2.1">
+<link rel="stylesheet" type="text/css" href="incs/general.css?v=2.1">
+<link rel="stylesheet" type="text/css" href="incs/layout.css?v=2.2">
 <link rel="stylesheet" type="text/css" href="incs/navi.css?v=2.2">
 <link rel="stylesheet" type="text/css" href="incs/classes.css?v=2.2">
 <meta name="viewport" content="width=device-width,initial-scale=1" />

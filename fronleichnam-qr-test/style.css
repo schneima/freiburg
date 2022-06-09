@@ -1,0 +1,29 @@
+html {
+	/* #001680; blau */
+	/* #960000; rot */
+
+	background-color: rgba(00,16,80, 0.4);
+	background-size: cover;
+	color: black;
+}
+
+body 
+{
+	margin-top: 10%;
+   font-family:  arial, sans-serif;
+   font-family: 'Open Sans', sans-serif; 
+   font-size: 3em;
+}
+
+.center {
+	margin-top: 20px;
+	text-align: center;
+}
+
+h1 {
+    margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+    text-align: center;
+    font-size: 1em;
+}

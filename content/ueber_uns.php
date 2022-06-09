@@ -26,23 +26,19 @@
         Judith Hermann<br>
         Julia Steiert<br>
         Julia Weber<br>
-        Stella Schneider<br>
-        Sabrina Schmutz
+        Stella Schneider
     </td>
     <td >        
         Dagmar Riesterer<br>
         Axel Goltz-Allgaier<br>    
         Thomas Imgraben<br>
         Simeon Maas<br>
-        Carlos-Maria Maas<br>
         Leon Riesterer<br>
-        Anton Weller
+        Manuel Schneider
     </td>
     <td > 
         Patricia Schneider<br>
-        Lena Weber<br>
-        Lisa Schweizer<br>
-        Teresa Meilinger                
+        Lisa Schweizer
     </td>
     <td >
         Markus Schneider<br>
@@ -67,14 +63,12 @@
         Meinrad Grammelspacher<br>
         Eva-Maria Grammelspacher<br>
         Berthold Schweizer<br>
-        Brigitte Weber<br>
-        Anais Braun<br>
-        Anna Zähringer
+        Brigitte Weber
     </td>
     <td >
         Florian	M&uuml;ller<br>
-        Moritz Butsch<br>
         Stefan Hauser<br>
+        Carlos-Maria Maas<br>
         Dominik Sumser
     </td>
     <td>
@@ -90,14 +84,13 @@
   </tr>
   <tr> 
     <td >
-      Sandra Jakob<br>
-      Johannes Albert<br>
       Jarek Weiser<br>
       Anne Weber<br>
       Thomas Schneider<br>
       Tom Kenk<br>
       Lenny-Emile Maas<br>
-      Felix Weiser
+      Felix Weiser<br>
+      Annika Sumser
     </td>
     <td>
         Klaus Weber<br>
